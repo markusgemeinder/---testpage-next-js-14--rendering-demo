@@ -1,7 +1,6 @@
 'use client';
 
 export default function AboutPage() {
-  const example = 'About server component';
-  console.log(example);
-  return <h1>About Page</h1>;
+  console.log('About server component');
+  return <h1>About Page {new Date().toLocaleTimeString()}</h1>;
 }
